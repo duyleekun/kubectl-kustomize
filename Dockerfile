@@ -1,4 +1,4 @@
-FROM bitnami/kubectl:1.18
+FROM bitnami/kubectl:1.19
 USER root
 WORKDIR /usr/local/bin
 RUN curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
